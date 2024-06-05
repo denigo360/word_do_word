@@ -12,18 +12,10 @@
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/word_do_word`. To experiment with that code, run `bin/console` for an interactive prompt.
 
 ## Installation
+You can install your gem locally on your computer using 
+the command gem install path to your gem.gem on the command line:
 
-Add this line to your Gemfile:
-
-gem 'word_do_word'
-
-And then execute:
-
-bundle install
-
-Or install the library yourself using the command:
-
-gem install word_do_word
+gem install (path_to_folder)word_do_word-0.1.0.gem
 
 Here is an example of how to use the word_do_word library:
 
