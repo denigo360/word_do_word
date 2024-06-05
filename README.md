@@ -27,41 +27,6 @@ If bundler is not being used to manage dependencies, install the gem by executin
 
 You can find project documentation in the ./doc
 
-## class Wordling
-Этот класс содержит методы для работы с текстовыми файлами.
-
-## Методы
-Публичные:
-def initialize(stop_words: [], lemmatization: false)
-def analyze_folder(folder_path, filename_pattern = '*')
-
-Приватные:
-def extract_words(file)
-def lemmatize(word)
-
-## Подробное описание
-
-### def initialize(stop_words: [], lemmatization: false)
-Публичный метод который объявляет поля класса. 
-
-params:
-
-stop_words - список слов, которые не будут учитоваться при подсчете.
-lemmatization - флаг лемметизации наших слов.
-
-### def analyze_folder(folder_path, filename_pattern = '*')
-Публичный метод который осуществляет подсчет слов.
-
-params: 
-
-folder_path - путь в директорию в которой будет осуществляться подсчёт слов в .txt файлах.
-
-filename_pattern - паттерн, заданый в виде регулярного выражения, который будет анализировать те файлы, название которых подходит под этот паттерн. 
-По умолчанию '*' (т.е. анализируются все файлы).
-
-return:
-Возвращается нам список встречающихся в файлах слов, с указанием для каждого слова количество вхождений.
-
 ## Usage
 
 Use our gem for frequency analysis of text files. The input is the path to the folder with files in .txt format.
