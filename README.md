@@ -16,12 +16,15 @@ Welcome to your new gem! In this directory, you'll find the files you need to be
 Add this line to your Gemfile:
 
 gem 'word_do_word'
+
 And then execute:
 
 bundle install
+
 Or install the library yourself using the command:
 
 gem install word_do_word
+
 Here is an example of how to use the WordleGame library:
 
 require 'word_do_word'
