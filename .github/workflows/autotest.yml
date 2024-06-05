@@ -3,9 +3,15 @@ on:
   push:
     branches:
       - main
+      - Documentation
+      - Test
+      - Lib
   pull_request:
     branches:
       - main
+      - Documentation
+      - Test
+      - Lib
 
 jobs:
   test:
