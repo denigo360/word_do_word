@@ -25,7 +25,7 @@ Or install the library yourself using the command:
 
 gem install word_do_word
 
-Here is an example of how to use the WordleGame library:
+Here is an example of how to use the word_do_word library:
 
 require 'word_do_word'
 ## Documentation
