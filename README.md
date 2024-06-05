@@ -6,7 +6,7 @@
 
 ## Team
 1. Danil Eroshenko
-2. Feodor Poddubkyak
+2. Feodor Poddubnyak
 3. Egor Voronin
 
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/word_do_word`. To experiment with that code, run `bin/console` for an interactive prompt.
@@ -25,7 +25,7 @@ If bundler is not being used to manage dependencies, install the gem by executin
 
 ## Documentation
 
-We uses rdoc for documentation. 
+You can find project documentation in the ./doc
 
 ## Usage
 
