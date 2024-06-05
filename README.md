@@ -1,6 +1,13 @@
 # WordDoWord
 
-TODO: Delete this and the text below, and describe your gem
+## _This is our custom ruby library (gem)_   
+### Our goals
+Сreate a ruby library (gem) with a clean architecture
+
+## Team
+1. Danil Eroshenko
+2. Feodor Poddubnyak
+3. Egor Voronin
 
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/word_do_word`. To experiment with that code, run `bin/console` for an interactive prompt.
 
@@ -16,9 +23,15 @@ If bundler is not being used to manage dependencies, install the gem by executin
 
     $ gem install UPDATE_WITH_YOUR_GEM_NAME_PRIOR_TO_RELEASE_TO_RUBYGEMS_ORG
 
+## Documentation
+
+You can find project documentation in the ./doc
+
 ## Usage
 
-TODO: Write usage instructions here
+Use our gem for frequency analysis of text files. The input is the path to the folder with files in .txt format.
+Our gem counts data from all files and returns a list of words found in the files, indicating the number of occurrences for each word.
+You can install stop sheets and carry out limmetization.
 
 ## Development
 
